@@ -1,0 +1,53 @@
+
+.set-container {
+    position: absolute;
+    height: 400px;
+    width: 1300px;
+    border: 3px solid black;
+    text-align: center;
+}
+.character {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 300px;
+    width: 200px;
+    border: 2px solid red;
+    text-align: center;
+}
+.item1 {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid pink;
+    text-align: center;
+}
+.item2 {
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid pink;
+    text-align: center;
+}
+.item3 {
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid pink;
+    text-align: center;
+}
+.item4 {
+    position: absolute;
+    top: 150px;
+    left: 1050px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid pink;
+    text-align: center;
+}
