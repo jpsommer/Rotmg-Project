@@ -1,6 +1,10 @@
-
+.set-parent
+{
+    position: relative;
+    margin: 40;
+}
 .set-container {
-    position: absolute;
+    position: relative;
     height: 400px;
     width: 1300px;
     border: 3px solid black;
@@ -14,6 +18,9 @@
     width: 200px;
     border: 2px solid red;
     text-align: center;
+}
+.char {
+    width: 300px;
 }
 .item1 {
     position: absolute;
@@ -50,4 +57,7 @@
     width: 200px;
     border: 2px solid pink;
     text-align: center;
+}
+.item {
+    width: 100px;
 }
