@@ -1,63 +1,68 @@
-.set-parent
-{
-    position: relative;
-    margin: 40;
-}
+
 .set-container {
     position: relative;
-    height: 400px;
-    width: 1300px;
+    height: 300px;
+    width: 970px;
     border: 3px solid black;
     text-align: center;
+    margin: 30px;
+    background-color: #3d4445;
 }
 .character {
     position: absolute;
-    top: 50px;
-    left: 50px;
+    bottom: 0px;
     height: 300px;
     width: 200px;
-    border: 2px solid red;
-    text-align: center;
+    /* border: 3px solid red; */
 }
-.char {
-    width: 300px;
+.charimg{
+    position: relative;
+    width: 150%;
+    top: 0px;
+    left: -20px;
+}
+.itemimg {
+    position: relative;
+    width: 100px;
+    top: -50px;
+    background-color:lightslategrey;
+}
+.itemtext {
+    position: relative;
+    top: -30px;
 }
 .item1 {
     position: absolute;
     top: 150px;
-    left: 300px;
-    height: 200px;
-    width: 200px;
-    border: 2px solid pink;
+    left: 250px;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid pink; */
     text-align: center;
 }
 .item2 {
     position: absolute;
     top: 150px;
-    left: 550px;
-    height: 200px;
-    width: 200px;
-    border: 2px solid pink;
-    text-align: center;
+    left: 430px;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid pink; */
 }
 .item3 {
     position: absolute;
     top: 150px;
-    left: 800px;
-    height: 200px;
-    width: 200px;
-    border: 2px solid pink;
+    left: 610px;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid pink; */
     text-align: center;
 }
 .item4 {
     position: absolute;
     top: 150px;
-    left: 1050px;
-    height: 200px;
-    width: 200px;
-    border: 2px solid pink;
+    left: 790px;
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid pink; */
     text-align: center;
-}
-.item {
-    width: 100px;
 }
