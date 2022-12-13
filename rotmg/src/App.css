@@ -1,6 +1,7 @@
 body{
     background-color: #232626;
     display: flex;
+    flex-wrap:wrap;
 }
 /* .myGrid{
     background-color: green;

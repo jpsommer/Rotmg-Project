@@ -5,7 +5,7 @@ const characters = importAll(require.context("./images/Characters",false,/\.(png
 const items = importAll(require.context("./images/Items",false,/\.(png|jpe?g|svg)$/));
 
 const numSets = 15;
-//const numCols = 3;
+const numCols = 3;
 
 function App() {
   const disp=[];
@@ -27,7 +27,7 @@ function App() {
   }
   const ndisp=[];
   while(disp.length>0) {
-    ndisp.push(disp.splice(0,3))
+    ndisp.push(disp.splice(0,numCols))
   }
 
   
