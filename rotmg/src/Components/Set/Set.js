@@ -6,23 +6,23 @@ function Set(props) {
         <div class="set-container">
             <h1>{props.cn}</h1>
             <div class="character">
-                <img class="charimg" src={props.c} alt={""}/>
+                <img class="charimg" src={props.c} alt={props.c}/>
             </div>
             <div class="item1">
-                <h1 class="itemtext">{props.s1n}</h1>
-                <img class="itemimg" src={props.s1} alt={""}/>
+                <h1 class="itemtext">{"Weapon"}</h1>
+                <img class="itemimg" src={props.s1} title={props.s1n} alt={""}/>
             </div>
             <div class="item2">
-                <h1 class="itemtext">{props.s2n}</h1>
-                <img class="itemimg" src={props.s2} alt={""}/>
+                <h1 class="itemtext">{"Ability"}</h1>
+                <img class="itemimg" src={props.s2} title={props.s2n} alt={""}/>
             </div>
             <div class="item3">
-                <h1 class="itemtext">{props.s3n}</h1>
-                <img class="itemimg" src={props.s3} alt={""}/>
+                <h1 class="itemtext">{"Armor"}</h1>
+                <img class="itemimg" src={props.s3} title={props.s3n} alt={""}/>
             </div>
             <div class="item4">
-                <h1 class="itemtext">{props.s4n}</h1>
-                <img class="itemimg" src={props.s4} alt={""}/>
+                <h1 class="itemtext">{"Ring"}</h1>
+                <img class="itemimg" src={props.s4} title={props.s4n} alt={""}/>
             </div>
         </div>
     )

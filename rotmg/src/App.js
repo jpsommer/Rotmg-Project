@@ -1,11 +1,11 @@
 import './App.css';
 import Set from './Components/Set/Set';
+import data from './data.js'
 
 const characters = importAll(require.context("./images/Characters",false,/\.(png|jpe?g|svg)$/));
 const items = importAll(require.context("./images/Items",false,/\.(png|jpe?g|svg)$/));
 
-const numSets = 15;
-const numCols = 3;
+const numSets = 24;
 
 function App() {
   const disp=[];
@@ -13,11 +13,11 @@ function App() {
     disp.push(
         <Set 
         c={characters[String(i)+".png"]}
-        cn={"Character Name"}
-        s1n={"Item 1"}
-        s2n={"Item 2"}
-        s3n={"Item 3"}
-        s4n={"Item 4"}
+        cn={data[i-1][0]}
+        s1n={data[i-1][1]}
+        s2n={data[i-1][2]}
+        s3n={data[i-1][3]}
+        s4n={data[i-1][4]}
         s1={items[String(i*4-3)+".png"]}
         s2={items[String(i*4-2)+".png"]}
         s3={items[String(i*4-1)+".png"]}
@@ -25,14 +25,11 @@ function App() {
         />
     )
   }
-  const ndisp=[];
-  while(disp.length>0) {
-    ndisp.push(disp.splice(0,numCols))
-  }
 
-  
   return(
-    ndisp
+    <div className="grid"> 
+    {disp}
+    </div>
     );
 };
 
