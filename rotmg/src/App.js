@@ -1,10 +1,11 @@
 import './App.css';
 import Set from './Components/Set/Set';
-import data from './data.js'
+import data from './data.js';
+import memory from "./memory.js";
 
 const characters = importAll(require.context("./images/Characters",false,/\.(png|jpe?g|svg)$/));
 const items = importAll(require.context("./images/Items",false,/\.(png|jpe?g|svg)$/));
-
+const mem = memory;
 const numSets = 24;
 
 function App() {
@@ -18,10 +19,12 @@ function App() {
         s2n={data[i-1][2]}
         s3n={data[i-1][3]}
         s4n={data[i-1][4]}
+        s5n={data[i-1][5]}
         s1={items[String(i*4-3)+".png"]}
         s2={items[String(i*4-2)+".png"]}
         s3={items[String(i*4-1)+".png"]}
         s4={items[String(i*4)+".png"]}
+        status={memory[data[i-1][0]]}
         />
     )
   }

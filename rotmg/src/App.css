@@ -1,5 +1,7 @@
 body{
-    background-color: #232626;
+    background: rgb(11,43,43);
+    background: linear-gradient(142deg, rgba(11,43,43,1) 0%, rgba(79,149,177,1) 100%);
+    
 }
 .grid{
     display: flex;
