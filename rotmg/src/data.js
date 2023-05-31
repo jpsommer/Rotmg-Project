@@ -215,9 +215,277 @@ const data = [
     ],
     
     /*------------------------------------*/
+
     [
-        
+        "Cuboid Necromancer",
+        "Squaroid Staff",
+        "Cubic Frame",
+        "Polygonal Garbs",
+        "Cuband"
     ],
+
+    /*------------------------------------*/
+    
+    [
+        "Hollow King Necromancer",
+        "Edictum Praetoris",
+        "Memento Mori",
+        "Toga Picta",
+        "Interregnum"
+    ],
+    
+    
+    /*------------------------------------*/
+    
+    [
+        "Reaper Necromancer",
+        "Gravekeeper's Scythe",
+        "Hooded Skull",
+        "Executioner's Garb",
+        "Grim Goblet"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Resurrected Huntress",
+        "Bolt Thrower",
+        "Lightning Rod",
+        "Wedding Dress",
+        "Gothic Bouffant"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Horticultural Huntress",
+        "Bergenia Bow",
+        "Lifebringing Lotus",
+        "Hollyhock Hide",
+        "Chrysanthemum Corsage"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Swarming Huntress",
+        "Nectar Crossfire",
+        "Honeytomb Snare",
+        "Apiary Armor",
+        "Honey Circlet"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Cursed Cursebreaker Huntress",
+        "Silver Revolvers",
+        "Consecrated Trap",
+        "Metal-plated Corset",
+        "Vial of Sustenance"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Magmatic Mystic",
+        "Staff of Eruption",
+        "Scorchium Stone",
+        "Molten Mantle",
+        "Ring of the Inferno"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Phylactery Mystic",
+        "The Phylactery",
+        "Soul of the Bearer",
+        "Soulless Robe",
+        "Ring of the Covetous Heart"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Totalia Mystic",
+        "Stygian Torch",
+        "Orb of the Sabbath",
+        "Robe of the Enchantress",
+        "Witch's Brooch"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Daeva Trickster",
+        "Archangel's Judgement",
+        "Daevite Progenitor",
+        "Seraphim's Guard",
+        "Flames of Genesis"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Lost Golem",
+        "Carved Golem Remains",
+        "Brain of the Golem",
+        "Golem Garments",
+        "Rusty Cuffs"
+    ],
+    
+    /*------------------------------------*/
+
+    [
+        "Scarecrow Trickster",
+        "Maize Machete",
+        "Pumpkin Prism",
+        "Withered Poncho",
+        "Burlap Hat"
+    ],
+
+    /*------------------------------------*/
+
+    [
+        "Court Magician Sorcerer",
+        "Magic Wand",
+        "Lightshow Scepter",
+        "Magician's Robe",
+        "Performer's Hat"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Horrific Sorcerer",
+        "Abomination's Wrath",
+        "Grotesque Scepter",
+        "Garment of the Beast",
+        "Horrific Claws"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Onmyoji Ninja",
+        "Shakujo",
+        "Invocation Scroll",
+        "Divination Cloak",
+        "Omamori"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Crystal Kunoichi",
+        "Quartz Cutter",
+        "Crystalline Kunai",
+        "Luminous Armor",
+        "Radiant Heart"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Raijin Disciple",
+        "Reikoku",
+        "Daybreak Chakram",
+        "Hirejou Tenne",
+        "Heavenly Magatama"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Daring Discoverer Samurai",
+        "Kiritsukeru",
+        "Watarimono",
+        "Reinforced Root Armor",
+        "Traveler's Trinket"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Akuma Slayer",
+        "Kazekiri",
+        "Ryu's Blade",
+        "Kamishimo",
+        "Akuma's Tear"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Storm Caller Bard",
+        "Hailstorm",
+        "Thundering Chorus",
+        "Wind Dancer Robe",
+        "Augur of the Tempest"
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Angelic Bard",
+        "Harmonius Harp",
+        "Angel's Fanfare",
+        "Wings of Sanctity",
+        "Heavenly Halo",
+    ],
+    
+    /*------------------------------------*/
+    
+    [
+        "Earthen Bulwark Summoner",
+        "Earthen Ward",
+        "Stonemould Mace",
+        "Rocky Robe",
+        "Steadfast Glyph"
+    ],
+    
+    /*------------------------------------*/
+
+    [
+        "Scientific Summoner",
+        "C.L.A.W.",
+        "B.O.O.M.",
+        "A.R.M.O.R.",
+        "C.O.N.T.R.O.L.L.E.R."
+    ],
+
+    /*------------------------------------*/
+    
+    [
+        "Ghostly Banshee Summoner",
+        "Tormented Shriek",
+        "Ghastly Mace",
+        "Lacerated Gown",
+        "Unresolved Grudge"
+    ],
+
+    /*------------------------------------*/
+    
+    [
+        "Fiery Kensei",
+        "Fiery Katana",
+        "Pyro Sheath",
+        "Flame Guard",
+        "Firelight Necklace"
+    ],
+
+    /*------------------------------------*/
+    
+    [
+        "Tidal Wave Kensei",
+        "Saif of the Deep",
+        "Loch Sheath",
+        "Barruer Reef",
+        "Alexander's Band"
+    ]
+
+
 ]
 
 export default data;

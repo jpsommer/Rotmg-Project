@@ -1,86 +1,107 @@
 .set-container {
     position:relative;
-    border-radius: 25px;
-    height: 300px;
-    width: 770px;
+    border-radius: 13px;
+    height: 150px;
+    width: 385px;
     border: 3px solid black;
-    margin: 20px;
+    margin: 10px;
     background: rgb(59,71,73);
     background: linear-gradient(180deg, rgba(59,71,73,1) 0%, rgba(121,138,141,1) 41%, rgba(171,188,190,1) 65%, rgba(163,204,213,1) 100%);
     text-align:left;
 }
 h2 {
     position: absolute;
-    font-size: 30px;
-    right:50px;
-    top:10px;
+    font-size: 15px;
+    right:70px;
+    top:5px;
     text-decoration: underline;
 }
-.character {
+.character{
     position: absolute;
-    bottom: 0px;
-    height: 300px;
-    width: 200px;
+    bottom: -10px;
+    left:-8px;
+    height: 150px;
+    width: 100px;
 }
 .charimg{
     position: relative;
     width: 140%;
-    top: 20px;
-    left: -20px;
 }
 .itemimg {
-    position: relative;
-    width: 100px;
-    top: -76px;
-    right: 8px;
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    right: 2px;
+    bottom:0px;  
 }
 .itemtext {
     position: relative;
-    top: -60px;
-    font-size: 30px;
+    top: -34px;
+    font-size: 15px;
+    left:-12px;
+    width:50px;
 }
 .item1 {
     position: absolute;
-    top: 180px;
-    left: 250px;
-    height: 150px;
-    width: 150px;
+    top: 90px;
+    left: 125px;
+    height: 50px;
+    width: 50px;
+    box-sizing:content-box;
 }
 .item2 {
     position: absolute;
-    top: 180px;
-    left: 380px;
-    height: 150px;
-    width: 150px;
+    top: 90px;
+    left: 190px;
+    height: 50px;
+    width: 50px;
 }
 .item3 {
     position: absolute;
-    top: 180px;
-    left: 510px;
-    height: 150px;
-    width: 150px;
+    top: 90px;
+    left: 255px;
+    height: 50px;
+    width: 50px;
 }
 .item4 {
     position: absolute;
-    top: 180px;
-    left: 640px;
-    height: 150px;
-    width: 150px;
+    top: 90px;
+    left: 320px;
+    height: 50px;
+    width: 50px;
+}
+.item5 {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    height: 50px;
+    width: 50px;
 }
 .noitem{
-    width: 100px;
-    height: 100px;
-    border-radius: 12px;
-    background: linear-gradient(145deg, #41494a, #373d3e);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #798081, #464b4d);
     cursor:pointer;
 }
 .haveitem{
-    width: 100px;
-    height: 100px;
-    border-radius: 9px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
     background: #b4b715;
-    box-shadow: inset 9px 9px 18px #75770e,
-            inset -9px -9px 18px #f3f71c;
+    box-shadow: inset 5px 5px 9px #75770e,
+            inset -5px -5px 9px #f3f71c;
     cursor:pointer;
 
+}
+.haveSet{
+    position:relative;
+    border-radius: 13px;
+    height: 150px;
+    width: 385px;
+    border: 3px solid black;
+    margin: 10px;
+    background: rgb(59,71,73);
+    background: linear-gradient(180deg, rgb(248, 221, 68) 0%, rgb(197, 197, 139) 41%, rgb(216, 226, 186) 65%, rgb(231, 233, 200) 100%);
+    text-align: left;
 }
