@@ -7,18 +7,15 @@ const characters = importAll(require.context("./images/Characters",false,/\.(png
 const items = importAll(require.context("./images/Items",false,/\.(png|jpe?g|svg)$/)); //grab item images
 const cookies = new Cookies();
 
-console.log(data[0][0])
-
 for (let i=0; i<data.length;i++) {
   if (!cookies.get(data[i][0])) {
-      cookies.set(data[i][0],"0".repeat(data[i].length-1))
+      cookies.set(data[i][0],"0".repeat(data[i].length-1),{path: "/", maxAge: new Date(Date.now()+2592000)})
   }
 }
 
 function App() {  
     const disp=[];
   for (let i=0; i<data.length; i++){
-    console.log(i)
     disp.push(
         <Set 
         characterImage={characters[String(i+1)+".png"]} //give character portraits to Set.js

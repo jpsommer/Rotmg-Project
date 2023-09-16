@@ -76,8 +76,6 @@ function Set(props) {
         cookies.set(props.characterName,cookie)
     }
 
-    console.log(props.itemName5)
-
     var hasFullSet = false;
     if (itemState1 & itemState2 & itemState3 & (itemState4 || itemState5)){ //checks if all item buttons are toggled
         hasFullSet = true;
