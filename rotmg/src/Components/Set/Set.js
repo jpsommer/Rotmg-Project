@@ -21,7 +21,7 @@ function Set(props) {
             cookie[0] ="1"
         }
         cookie = cookie.join("") 
-        cookies.set(props.characterName,cookie)
+        cookies.set(props.characterName,cookie,{path: "/", maxAge: new Date(Date.now()+2592000)})
     }
     const itemToggle2=()=>{ //allows toggling of button 2
         setItemState2(!itemState2);
